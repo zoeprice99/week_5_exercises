@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-# Week 5 Exercises  {.tabset}
+# Week 5 Exercises {.tabset}
 
 **J.Blondeau\
 2024-9-19**
@@ -52,10 +52,50 @@ Here are a few helpful resources: <br> [pimp my r markdown](https://holtzy.githu
 
 1.  Create (if not already) a 'docs' directory in your main project directory
 
-2.  Create a new RMarkdown (.Rmd) file in the docs directory and name it index
+    ![](images/add_docs_folder.jpg)
+
+2.  Create a new RMarkdown (.Rmd) file and then save the file in the docs directory with the name "index"
+
+    ![](images/save_index_file.jpg)
 
 3.  Edit your index.rmd file
 
+    This is where you will make all the document edits.
+
 4.  Knit the .rmd file. R will create an index.html file for you
+
+    ![](images/knit_index_file.jpg)
+
+5.  Commit and push everything up to your github account
+
+    1.  On the Git tab, click on Commit button
+
+    2.  Toggle all the files you would like to commit and save
+
+    3.  Add a clear and succinct commit message
+
+    4.  Save commit
+
+    5.  Push all the changes to your Github
+
+    ![](images/commit_and_save.jpg)
+
+6.  Now navigate to your github account and find your week_5 repository
+
+7.  Go to the settings tab
+
+    ![](images/github_settings.jpg)
+
+8.  Then from the settings menu
+
+    1.  Click on 'Pages' tab
+
+    2.  Change Branch to Master
+
+    3.  Change folder to /Docs
+
+    4.  Then Save
+
+9.  After a few minutes, refresh the setting page and Github will host your RMarkdown document with its own URL
 
 ## Citations
