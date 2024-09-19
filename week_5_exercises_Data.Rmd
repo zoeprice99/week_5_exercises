@@ -8,7 +8,7 @@ bibliography: references.bib
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
+library(tidyverse)
 ```
 
 # Week 5 Exercises {.tabset}
